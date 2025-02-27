@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Portfolyo</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>    
+</head>
+<body>
+    <header>
+        <h1>Muhammed Enes Bostancı</h1>
+        <p>Web geliştirici ve tasarımcı</p>
+        <button id="toggle-theme">Dark/Light Mode</button>
+    </header>
+    
+    <nav id="menu">
+        <ul>
+            <li><a href="#hakkimda">Hakkımda</a></li>
+            <li><a href="#projeler">Projeler</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="hakkimda">
+            <h2>Hakkımda</h2>
+            <p>Ben bir web geliştiriciyim. HTML, CSS ve JavaScript ile modern web sayfaları geliştiriyorum.</p>
+        </section>
+        
+        <section id="projeler">
+            <h2>Projeler</h2>
+            <button id="toggle-projects">Projeleri Göster/Gizle</button>
+            <div id="projects-container">
+                <article class="project-card">
+                    <h3>Proje 1: Kişisel Portfolyo Sitesi</h3>
+                    <figure>
+                        <img src="IMG_20230627_000351_104.jpg" alt="Kişisel Portfolyo Sitesi">
+                        <figcaption>Kişisel portfolyo projem</figcaption>
+                    </figure>
+                    <p>Bu proje, kendimi ve yaptığım işleri tanıtabileceğim bir kişisel portfolyo sitesidir. HTML, CSS ve JavaScript kullanılarak geliştirilmiştir. 
+                        Sayfa içerisinde hakkımda bölümü, projelerim ve iletişim bilgilerim bulunmaktadır. Kullanıcılar, projeler hakkında detaylı bilgiler edinebilir ve benimle iletişime geçebilir. 
+                        Tasarımda duyarlılık (responsive design) esas alınmış olup, mobil ve masaüstü cihazlara uyumlu olarak geliştirilmiştir.</p>
+                </article>
+                <article class="project-card">
+                    <h3>Proje 2: Blog Sitesi</h3>
+                    <figure>
+                        <img src="IMG_20230627_000351_104.jpg" alt="Blog Sitesi">
+                        <figcaption>Blog sitesi projem</figcaption>
+                    </figure>
+                    <p>Bu projede bir blog sitesi Bu projede, kullanıcıların teknoloji, yazılım geliştirme ve tasarım hakkında içerikler paylaşabileceği dinamik bir blog sitesi oluşturulmuştur. 
+                        Kullanıcılar, farklı kategorilerde yazılar okuyabilir, yorum yapabilir ve içerikleri paylaşabilir. Sayfa modern bir tasarıma sahiptir ve okunabilirliği artırmak için farklı yazı tipleri ve düzenlemeler kullanılmıştır. 
+                        Ayrıca, bir yönetici paneli eklenerek yeni yazılar eklenebilir ve mevcut içerikler güncellenebilir hale getirilmiştir.</p>
+                </article>
+            </div>
+        </section>
+        
+        <section id="iletisim">
+            <h2>İletişim</h2>
+            <address>
+                <p>Email: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">enes.bostanci062005@gmail.com</a></p>
+                <p>Instagram: <a href="https://www.instagram.com/p/DE-j1Gos8ef/?utm_source=ig_web_copy_link">ringmen0</a></p>
+            </address>
+            <form id="contact-form">
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" required>
+                <button type="submit">Gönder</button>
+            </form>
+        </section>
+    </main>
+    
+    <aside>
+        <h2>Son Blog Yazılarım</h2>
+        <p>Web geliştirme üzerine en son yazılarım burada.</p>
+    </aside>
+    
+    <footer id="footer">
+        <p>&copy;  Muhammed Enes Bostancı web sitesindedir</p>
+        <time datetime="2025-02-27">27 Şubat 2025</time>
+    </footer>
+
+</body>
+</html>
+
