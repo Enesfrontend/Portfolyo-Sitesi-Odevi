@@ -1,38 +1,37 @@
-# Kişisel Portfolyo Projesi
+# Enes Bostancı - Kişisel Portfolyo
 
-Bu proje, web geliştirici ve tasarımcı olan **Muhammed Enes Bostancı**'nın kişisel portfolyo sitesi için hazırlanmıştır. HTML, CSS ve JavaScript kullanılarak oluşturulmuştur. Site, kullanıcıların hakkımda, projelerim ve iletişim bilgileri gibi temel bilgilere kolayca erişmesini sağlar.
+Bu proje, Enes Bostancı'nın kişisel portfolyo web sitesidir. Proje, yazılım geliştirme ve web tasarımı alanındaki çalışmalarını sergilemek için oluşturulmuştur.
 
-## Proje İçeriği
+## 📌 Proje İçeriği
+Bu web sitesi aşağıdaki bölümlerden oluşmaktadır:
+- **Ana Sayfa**: Kişisel bilgiler ve tanıtım.
+- **Hakkımda**: Yetenekler ve kariyer bilgileri.
+- **Projelerim**: Önceki projelerden birine ait bağlantı.
+- **İletişim**: E-posta, telefon ve LinkedIn bilgileri.
 
-Bu proje, üç ana bölümden oluşmaktadır:
+## 🚀 Kullanılan Teknolojiler
+- **HTML5** - Sayfa yapısını oluşturmak için.
+- **CSS3** - Sayfanın stilini düzenlemek için.
+- **JavaScript** - Dark mode özelliği eklemek için.
 
-1. **Hakkımda**: Web geliştirici olarak deneyimlerim ve becerilerim hakkında bilgi veren bir bölüm.
-2. **Projeler**: Gerçekleştirdiğim projeler hakkında bilgiler ve projelere ait görseller.
-3. **İletişim**: Benimle iletişime geçmek için bir form ve sosyal medya bağlantıları.
+## 🎨 Özellikler
+- **Responsive Tasarım**: Mobil uyumlu bir görünüm sağlar.
+- **Dark Mode**: Kullanıcılar koyu moda geçiş yapabilir.
+- **Bağlantılar**: Portfolyo projesine bağlantı eklenmiştir.
 
-Ayrıca, siteyi görsel olarak daha çekici hale getirmek için **Light/Dark Mode** özelliği eklenmiştir. Kullanıcılar siteyi isterlerse koyu modda, isterlerse açık modda görüntüleyebilir.
+## 📂 Dosya Yapısı
+```
+📁 Kök Dizini
+│── index.html  # Ana HTML dosyası
+│── style.css   # CSS dosyası
+│── script.js   # JavaScript dosyası
+```
 
-## Kullanılan Teknolojiler
+## 📞 İletişim
+Enes Bostancı ile iletişime geçmek için:
+- **E-posta**: enes.bostanci062005@gmail.com
+- **LinkedIn**: [LinkedIn Profilim](https://www.linkedin.com/in/muhammed-enes-bostanc%C4%B1-492454354/)
 
-- **HTML**: Sayfa yapısını oluşturmak için kullanıldı.
-- **CSS**: Sayfanın stil ve tasarımını yapmak için kullanıldı.
-- **JavaScript**: Sayfa etkileşimleri, özellikle tema değişimi ve projelerin görünürlüğü için kullanıldı.
+---
+Bu proje açık kaynaklıdır. Katkıda bulunmak için fork yapabilir veya önerilerinizi paylaşabilirsiniz! 🎉
 
-## Proje Özellikleri
-
-- **Responsive Design**: Mobil cihazlarda ve masaüstü cihazlarda uyumlu bir tasarım.
-- **Dark/Light Mode**: Kullanıcıların sayfa temasını değiştirebileceği bir özellik.
-- **Proje Gösterme ve Gizleme**: Proje kısmında yer alan projeler, kullanıcı tarafından açılıp kapanabilir.
-- **Modern Tasarım**: Kart tabanlı bir düzen ile şık ve kullanıcı dostu bir görünüm.
-
-## Kullanım
-
-Projeyi çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
-
-1. `index.html` dosyasını tarayıcınızda açın.
-
-
-## İletişim
-
-- **Email**: enes.bostanci062005@gmail.com
-- **Instagram**: [ringmen0](https://www.instagram.com/ringmen0)
