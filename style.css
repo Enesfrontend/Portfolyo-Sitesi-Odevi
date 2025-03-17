@@ -130,3 +130,16 @@ aside.dark-mode {
     background: #1f1f1f;
     color: #ddd;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, strong, span {
+    font-weight: 800; /* Extra Bold */
+}
+
+p, li, td {
+    font-weight: 400; /* Normal */
+}
+
